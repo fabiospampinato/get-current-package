@@ -1,0 +1,33 @@
+{
+  "name": "get-current-package",
+  "repository": "github:fabiospampinato/get-current-package",
+  "description": "Get the package.json of the currently executing bin.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "tsex clean",
+    "compile": "tsex compile",
+    "compile:watch": "tsex compile --watch",
+    "test": "tsex test",
+    "test:watch": "tsex test --watch",
+    "prepublishOnly": "npm run clean && npm run compile && npm run test"
+  },
+  "keywords": [
+    "cli",
+    "get",
+    "current",
+    "package"
+  ],
+  "dependencies": {
+    "find-up-json": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "fava": "^0.0.8",
+    "tsex": "^1.1.5",
+    "typescript": "^4.9.5"
+  }
+}
