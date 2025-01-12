@@ -2,6 +2,7 @@
   "name": "get-current-package",
   "repository": "github:fabiospampinato/get-current-package",
   "description": "Get the package.json of the currently executing bin.",
+  "license": "MIT",
   "version": "1.0.0",
   "type": "module",
   "main": "dist/index.js",
@@ -22,12 +23,12 @@
     "package"
   ],
   "dependencies": {
-    "find-up-json": "^2.0.2"
+    "find-up-json": "^2.0.5"
   },
   "devDependencies": {
-    "@types/node": "^20.4.6",
-    "fava": "^0.2.0",
-    "tsex": "^3.0.0",
-    "typescript": "^5.1.6"
+    "@types/node": "^18.19.70",
+    "fava": "^0.3.4",
+    "tsex": "^4.0.2",
+    "typescript": "^5.7.3"
   }
 }
