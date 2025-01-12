@@ -7,7 +7,7 @@ This is meant to be used in combination with [`tiny-updater`](https://github.com
 ## Install
 
 ```sh
-npm install --save get-current-package
+npm install get-current-package
 ```
 
 ## Usage
