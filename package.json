@@ -3,7 +3,7 @@
   "repository": "github:fabiospampinato/get-current-package",
   "description": "Get the package.json of the currently executing bin.",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
